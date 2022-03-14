@@ -7,6 +7,7 @@ this is where the [Heroku Link](https://www.example.com/) would be
 1. `handlebars`
 2. `nodemon` (install with the `--save-dev` tag after the package name)
 3. `express`
+4. `bootstrap`
 
 
 # Page Checklist
