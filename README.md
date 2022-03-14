@@ -1,5 +1,5 @@
 # Current Running Build (Does not exist yet)
-this is where the Heroku [Link] (https://www.example.com/) would be
+this is where the Heroku [Link](https://www.example.com/) would be
 
 # Required npm packages
 ## Install these using `npm i [package name]` **(don't include brackets)**
