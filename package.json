@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "nodemonConfig": {
+    "ext": "js,html,css,hbs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +16,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "handlebars": "^4.7.7"
   }
 }
