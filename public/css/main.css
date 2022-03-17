@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1000px) {
+  .nav-divider {
+    margin-top:.75%;
+  }
+  .navbar-brand {
+    margin-left: 1%;
+  }
+  #company-name {
+   margin-left: 120px;
+  }
+  #search-bar-group {
+   width:150%;
+   padding-right: 50px;
+  }
+  #search-bar {
+   width: 80%;
+  }
+}
+.profile_img {
+  max-width: 50px;
+  max-height: 50px;
+ }

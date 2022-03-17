@@ -7,13 +7,13 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li>
-        <div class="input-group">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        <div class="input-group" id="search-bar-group">
+          <input id="search-bar" type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
             aria-describedby="search-addon" />
-          <button type="button" class="btn btn-outline-primary"><img src="img/magnifying-glass.png"> </button>
+          <button type="button" class="btn btn-outline-primary"><img src="img/magnifying-glass.png"></button>
         </div>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" id="company-name">
         <a class="nav-link" href="/home">ROCKINGHAM BICYCLE &amp; FABRICATION</a>
       </li>
       <li class="nav-item dropdown">
@@ -22,9 +22,10 @@
           SHOP
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Dropdown 1</a>
-          <a class="dropdown-item" href="#">Dropdown 2</a>
-          <a class="dropdown-item" href="#">Dropdown 3</a>
+          <a href="#" class="dropdown-item">Handle Bars</a>
+          <a href="#" class="dropdown-item">Frames</a>
+          <a href="#" class="dropdown-item">Seats</a>
+          <a class="dropdown-item" href="#">Tires</a>
         </div>
       </li>
       <li class="nav-item">
@@ -36,14 +37,15 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
-          SHOP
+          SERVICES
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Dropdown 1</a>
-          <a class="dropdown-item" href="#">Dropdown 2</a>
-          <a class="dropdown-item" href="#">Dropdown 3</a>
+          <a class="dropdown-item" href="#">Rentals</a>
+          <a class="dropdown-item" href="#">Repairs</a>
+          <a class="dropdown-item" href="#">Reutrns</a>
         </div>
       </li>
+      
     </ul>
   </div>
 </nav>
