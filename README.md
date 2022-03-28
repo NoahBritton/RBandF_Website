@@ -1,5 +1,5 @@
-# Current Running Build (Does not exist yet)
-this is where the [Heroku Link](https://www.example.com/) would be
+# Current Running Build
+[Heroku Link](https://rb-and-f.herokuapp.com/)
 
 # Required npm packages
 ## Install these using `npm i [package name]` **(don't include brackets)**
