@@ -9,6 +9,8 @@ this is where the [Heroku Link](https://www.example.com/) would be
 3. `express`
 4. `bootstrap`
 
+# Version comment
+## added placeholder hbs files and updated the homepage a little bit.
 
 # Page Checklist
 - [x] Home page (In progress)

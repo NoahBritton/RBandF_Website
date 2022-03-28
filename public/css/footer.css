@@ -1,0 +1,15 @@
+.col-4.offset-2 {
+  margin-right: -45%;
+}
+.col-4.offset-2 > form > h5{
+  font-size: 15px;
+}
+.col-4.offset-2 > form > p {
+  font-size: 15px;
+}
+.d-flex.gap-2 {
+  width: 80%;
+}
+.col-4 {
+  width: 29%;
+}
