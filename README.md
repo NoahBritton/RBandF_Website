@@ -16,7 +16,7 @@
 - [x] Home page (In progress)
 - [ ] Create Account page
 - [ ] Login page
-- [ ] About page / CEO Ron page
+- [ ] About page / CEO Ron page (basics/text)
 - [ ] Testimonials / Review page
 - [ ] Contact / Support page
 - [ ] Products paga
