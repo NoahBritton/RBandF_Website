@@ -17,7 +17,7 @@
 - [ ] Create Account page
 - [ ] Login page
 - [ ] About page / CEO Ron page
-- [ ] Testimonials / Reviuew page
+- [ ] Testimonials / Review page
 - [ ] Contact / Support page
 - [ ] Products paga
 - [ ] Rentals / Service page
