@@ -3,6 +3,7 @@ const path = require('path')
 const hbs = require('hbs')
 
 const mainRouter = require('./routers/main') 
+const aboutRouter = require('./routers/about') 
 
 const app = express() 
 
@@ -18,6 +19,7 @@ const partialsPath = path.join(__dirname, "../templates/partials")
 hbs.registerPartials(partialsPath)
 
 app.use(mainRouter)
+app.use(aboutRouter)
 
 const port = process.env.PORT || 3000 
 app.listen(port, () => { 
