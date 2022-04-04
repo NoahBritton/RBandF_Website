@@ -36,19 +36,17 @@
 .card {
   margin: 40px;
   position: relative;
-  max-width: 250px;
+  max-width: 450px;
   max-height: 350px;
-  box-shadow: 0 40px 60px -6px black;
+  box-shadow: 0 0px 0px -6px black;
 }
 
 .card-title {
   display: block;
   text-align: center;
   color: #fff;
-  background-color: #6184a8;
+  background-color: #1b4387;
   padding: 2%;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
 }
 
 .card img {
@@ -64,4 +62,11 @@ h1 {
   color: #fff;
   margin: 40px 0 20px 0;
   text-align: center;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
