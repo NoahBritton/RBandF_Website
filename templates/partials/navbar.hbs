@@ -4,8 +4,7 @@
     <ul class="nav nav-tabs">
       <li>
         <div class="input-group" id="search-bar-group">
-          <input id="search-bar" type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-            aria-describedby="search-addon" />
+          <input id="search-bar" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
           <button type="button" class="btn btn-outline-primary"><img src="img/magnifying-glass.png"></button>
         </div>
       </li>
@@ -13,15 +12,17 @@
         <a class="nav-link" href="/">ROCKINGHAM BICYCLE &amp; FABRICATION</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          SHOP
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a href="/handle-bars" class="dropdown-item">Handle Bars</a>
-          <a href="/frames" class="dropdown-item">Frames</a>
-          <a href="/seats" class="dropdown-item">Seats</a>
-          <a class="dropdown-item" href="/tires">Tires</a>
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="shopDropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+            SHOP
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="shopDropdownMenu">
+            <li><a class="dropdown-item" href="/handlebars">Handlebars</a></li>
+            <li><a class="dropdown-item" href="/frames">Frames</a></li>
+            <li><a class="dropdown-item" href="/seats">Seats</a></li>
+            <li><a class="dropdown-item" href="/tires">Tires</a></li>
+          </ul>
         </div>
       </li>
       <li class="nav-item">
@@ -31,15 +32,15 @@
         <a class="nav-link" href="/about">ABOUT</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" role="button" id="servicesDropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
           SERVICES
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/rentals">Rentals</a>
-          <a class="dropdown-item" href="/repairs">Repairs</a>
-          <a class="dropdown-item" href="/returns">Returns</a>
-        </div>
+
+        <ul class="dropdown-menu" aria-labelledby="servicesDropdownMenu">
+          <li><a class="dropdown-item" href="/rentals">Rentals</a></li>
+          <li><a class="dropdown-item" href="/repairs">Repairs</a></li>
+          <li><a class="dropdown-item" href="/returns">Returns</a></li>
+        </ul>
       </li>
       <li class="nav-item">
         <a href="#" class="nav-link" id="navbarDropdownMenuLink"></a>
@@ -47,3 +48,17 @@
     </ul>
   </div>
 </nav>
+
+{{!-- <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="shopDropdownMenu" data-bs-toggle="dropdown"
+    aria-expanded="false">
+    SHOP
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="shopDropdownMenu">
+    <li><a class="dropdown-item" href="/handlebars">Handlebars</a></li>
+    <li><a class="dropdown-item" href="/frames">Frames</a></li>
+    <li><a class="dropdown-item" href="/seats">Seats</a></li>
+    <li><a class="dropdown-item" href="/tires">Tires</a></li>
+  </ul>
+</div> --}}

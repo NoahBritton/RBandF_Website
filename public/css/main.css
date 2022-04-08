@@ -50,9 +50,10 @@
 }
 
 .card img {
-  width: 100%;
-  height: 98%;
-  object-fit: cover;
+  margin-top: -6px;
+  width: 448px;
+  height: 252px;
+  object-fit: scale-down;
   display: block;
   position: relative;
 }
@@ -71,6 +72,6 @@ h1 {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-#carousel {
-  background-image: url("img/sky.png");
+.carousel-item {
+  max-height: 400px !important;
 }
