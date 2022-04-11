@@ -1,4 +1,6 @@
-
+body {
+  color: #322e21;
+}
 .navbar-brand {
   margin-left: 1%;
 }
@@ -63,6 +65,9 @@ h1 {
   color: #fff;
   margin: 40px 0 20px 0;
   text-align: center;
+}
+#header {
+  color: #322e21 !important; 
 }
 .zoom {
   transition: transform .2s; /* Animation */

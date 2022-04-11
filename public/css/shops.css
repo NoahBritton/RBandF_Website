@@ -1,0 +1,33 @@
+body {
+  color: #322e21;
+}
+.navbar-brand {
+  margin-left: 1%;
+}
+#company-name {
+ margin-left: 120px;
+}
+#search-bar-group {
+ width:150%;
+ padding-right: 50px;
+}
+#search-bar {
+  width: 80%;
+}
+.profile_img {
+  max-width: 50px;
+  max-height: 50px;
+}
+ .nav.nav-tabs > .nav-item {
+  margin-left: 40px;
+}
+.nav.nav-tabs > .nav-item.dropdown {
+  margin-left: 40px;
+}
+.nav.nav-tabs.nav-item:nth-child(1) {
+  margin-left: 100px;
+}
+
+.col-sm-6 {
+  margin-bottom: 25px;
+}
