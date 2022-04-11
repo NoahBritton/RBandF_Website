@@ -20,8 +20,8 @@
 - [ ] Testimonials / Review page (????)
 - [x] Contact / Support page (as done as it will be)
 - [x] Product pages (as done as it will be)
-- [x] Rentals / Service page (as done as it will be)
-- [x] Warrenty / Returns page (as done as it will be)
+- [ ] Rentals / Service page
+- [ ] Warrenty / Returns page
 - [ ] Shopping Cart / Checkout page (back end required, will do later)
 - [ ] Extra Features
     - [ ] TBD...
