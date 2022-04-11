@@ -12,16 +12,15 @@
 # Version comment
 ## This is about all I can do without proper assets. I am a coder not an artist, I make things that work, not things that look pretty.
 
-# Page Checklist
+# Need help
+1. `Format About and Privacy page`
+2. `Need Help with general text pages`
+3.
+
+# Page Checklist (90% no function)
 - [x] Home page (as done as it will be)
-- [ ] Create Account page (back end required, will do later)
-- [ ] Login page (back end required, will do later)
+- [ ] Create Account / Login page
 - [x] About page / CEO Ron page (as done as it will be)
-- [ ] Testimonials / Review page (????)
 - [x] Contact / Support page (as done as it will be)
 - [x] Product pages (as done as it will be)
-- [ ] Rentals / Service page
-- [ ] Warrenty / Returns page
-- [ ] Shopping Cart / Checkout page (back end required, will do later)
-- [ ] Extra Features
-    - [ ] TBD...
+- [ ] Shopping Cart / Checkout page
