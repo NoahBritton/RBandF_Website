@@ -80,3 +80,33 @@ h1 {
 .carousel-item {
   max-height: 400px !important;
 }
+.carousel-caption.d-none.d-md-block {
+  margin-bottom: 1rem;
+}
+.carousel-indicators .active {
+  margin-bottom: -5rem;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5000ms;
+  margin-top: 2rem;
+  opacity: 1;
+  background: none;
+  height: auto;
+}
+.carousel-indicators [data-bs-target]{
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+  opacity: 1 !important;
+  background: none !important;
+  height: auto !important;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

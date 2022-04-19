@@ -17,10 +17,11 @@
 2. `Need Help with general text pages`
 3.
 
-# Page Checklist (90% no function)
+# Page Checklist (90% done)
 - [x] Home page (as done as it will be)
-- [ ] Create Account / Login page
+- [x] Create Account / Login page
 - [x] About page / CEO Ron page (as done as it will be)
 - [x] Contact / Support page (as done as it will be)
 - [x] Product pages (as done as it will be)
 - [ ] Shopping Cart / Checkout page
+- [ ] Bike Maker
