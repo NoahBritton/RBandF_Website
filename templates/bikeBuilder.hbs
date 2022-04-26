@@ -7,14 +7,45 @@
   <meta name="description" content="About page">
   <meta name="author" content="Noah Britton">
   {{> mainhead}}
+  <script defer src="js/bikeBuilder.js"></script>
   <title>Bike Builder - RB+F</title>
 </head>
 
 <body>
   {{> navbar}}
-
+  <div class="container-fluid topContainer">
+    <div class="row">
+      <div class="col justify-items-center">
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Frame 1</button>
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Frame 2</button>
+      </div>
+      <div class="col justify-items-center">
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Handlebar 1</button>
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Handlebar 2</button>
+      </div>
+    </div>
+  </div>
+  <img src="img/frame_no_wheel.png" class="rounded mx-auto d-block" id="bikeBuilderImg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col justify-items-center">
+        <button type="button" class="btn btn-primary bikeBuilder" id="wheel_1" onclick="wheel1()">Wheel 2</button>
+        <button type="button" class="btn btn-primary bikeBuilder" id="wheel_2" onclick="wheel2()">Wheel 2</button>
+      </div>
+      <div class="col justify-items-center">
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Seat 1</button>
+        <button type="button" class="btn btn-primary bikeBuilder" disabled>Seat 2</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <div class="col">
+        <button type="button" class="btn btn-danger bikeBuilder topContainer" onclick="reset()">Restart</button>
+      </div>
+  </div>
   {{> footer}}
   {{> bootstrap}}
+  
 </body>
 
 </html>

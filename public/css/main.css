@@ -1,6 +1,19 @@
 body {
   color: #322e21;
 }
+.container-fluid {
+  margin-left: 15.5rem;
+}
+.bikeBuilder {
+  width: 120px ;
+}
+.topContainer {
+  margin-top: 20px;
+}
+.btn-danger {
+  margin-left: auto;
+  margin-right: auto;
+}
 .navbar-brand {
   margin-left: 1%;
 }
@@ -60,11 +73,21 @@ body {
   position: relative;
 }
 
+.carouselText {
+  color: #ffffff;
+}
+.carouselText span {
+  background-color: rgba(131, 131, 131, 0.633); 
+}
+
 h1 {
   font-size: 2.8rem;
   color: #fff;
   margin: 40px 0 20px 0;
   text-align: center;
+}
+h5 {
+  color: #ffffff;
 }
 #header {
   color: #322e21 !important; 
