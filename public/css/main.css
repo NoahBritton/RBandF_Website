@@ -18,7 +18,10 @@ body {
   margin-left: 1%;
 }
 #company-name {
- margin-left: 120px;
+ margin-left: 90px;
+}
+#about {
+  margin-left:90px;
 }
 #search-bar-group {
  width:150%;

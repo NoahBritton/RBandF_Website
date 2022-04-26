@@ -10,9 +10,9 @@ const framesRouter = require('./routers/frames')
 const seatsRouter = require('./routers/seats')
 const tiresRouter = require('./routers/tires')
 const bikeBuilderRouter = require('./routers/bikeBuilder')
-const rentalsRouter = require('./routers/rentals')
-const repairsRouter = require('./routers/repairs')
-const returnsRouter = require('./routers/returns')
+const privacyRouter = require('./routers/privacy')
+const checkoutRouter = require('./routers/checkout')
+const supportRouter = require('./routers/support')
 
 const app = express() 
 
@@ -35,9 +35,9 @@ app.use(framesRouter)
 app.use(seatsRouter)
 app.use(tiresRouter)
 app.use(bikeBuilderRouter)
-app.use(rentalsRouter)
-app.use(repairsRouter)
-app.use(returnsRouter)
+app.use(privacyRouter)
+app.use(checkoutRouter)
+app.use(supportRouter)
 
 const port = process.env.PORT || 3000 
 app.listen(port, () => { 
